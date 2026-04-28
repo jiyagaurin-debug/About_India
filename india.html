@@ -1,0 +1,151 @@
+<!-- Create a webpage which contains the map of India and the should contain the name of states and union territories. When the user clicks on a particular state or union territories then it will display the webpage about that state, for the time being design only for 5 states as per your wish. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Map</title>
+    <style>
+        h1{
+            text-align:center;
+        }
+        img{
+            width:500px;
+            height:600px;
+            display:block;
+            margin:auto;
+        }
+        #coords{
+            text-align:center;
+            font-size:18px;
+            margin-top:15px;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Click any State / UT</h1>
+
+    <img src="images/map.jpg" alt="Map India" usemap="#india_map" id="indiaMap">
+
+    <map name="india_map">
+
+<!-- SOUTH INDIA -->
+<area shape="poly" coords="114,426,116,420,116,413,117,409,119,406,121,402,116,401,118,399,119,397,123,397,126,392,135,391,138,390,139,385,134,382,146,385,150,385,151,380,156,375,158,371,164,367,169,368,169,372,,168,377,167,379,17,382,166,388,167,391,167,392,182,410,182,401,162,419,157,429,159,436,159,447,160,443,170,445,177,442,177,448,182,453,183,454,179,459,171,461,170,468,170,473,161,478,155,481,148,476,141,475,137,470,134,465,127,464,123,452,123,446,119,437,116,430,115,425" href="states/karnataka.html" alt="Karnataka">
+
+<area shape="poly" coords="128,464,130,471,136,479,142,491,145,498,147,502,149,509,150,515,152,524,157,529,11,533,163,529,162,524,164,520,166,515,162,515,164,508,162,502,158,503,157,499,158,493,154,493,155,489,151,487,150,485,147,481,150,478,145,477,134,469,130,465" href="states/kerala.html" alt="Kerala">
+
+<area shape="poly" coords="180,510,200,520,220,540,230,580,200,590,180,570" href="states/tamilnadu.html" alt="Tamil Nadu">
+
+<area shape="poly" coords="200,450,230,460,250,470,260,500,240,520,210,500" href="states/andhrapradesh.html" alt="Andhra Pradesh">
+
+<area shape="poly" coords="" href="states/telangana.html" alt="Telangana">
+
+
+<!-- WEST INDIA -->
+<area shape="poly" coords="90,280,120,260,160,270,180,310,150,350,110,340" href="states/maharashtra.html" alt="Maharashtra">
+
+<area shape="poly" coords="60,260,80,250,100,260,90,300,60,290" href="states/gujarat.html" alt="Gujarat">
+
+<area shape="poly" coords="40,180,100,160,150,200,140,260,90,280,50,240" href="states/rajasthan.html" alt="Rajasthan">
+
+<area shape="poly" coords="100,300,130,310,140,350,110,360,90,340" href="states/madhyapradesh.html" alt="Madhya Pradesh">
+
+<!-- Goa (small but now poly) -->
+<area shape="poly" coords="95,350,100,345,105,350,100,360" href="states/goa.html" alt="Goa">
+
+
+<!-- NORTH -->
+<area shape="poly" coords="120,120,160,110,180,140,160,170,130,150" href="states/punjab.html" alt="Punjab">
+
+<area shape="poly" coords="140,150,180,150,190,180,160,200,130,180" href="states/haryana.html" alt="Haryana">
+
+<area shape="poly" coords="160,170,200,160,210,190,180,210" href="states/uttarakhand.html" alt="Uttarakhand">
+
+<area shape="poly" coords="180,140,220,130,240,160,210,190" href="states/himachalpradesh.html" alt="Himachal Pradesh">
+
+<!-- Delhi -->
+<area shape="poly" coords="150,160,155,160,155,165,150,165" href="states/delhi.html" alt="Delhi">
+
+<!-- Chandigarh -->
+<area shape="poly" coords="145,165,150,165,150,170,145,170" href="states/chandigarh.html" alt="Chandigarh">
+
+<!-- J&K -->
+<area shape="poly" coords="200,100,220,90,240,110,230,130,200,120" href="states/jammu_kashmir.html" alt="Jammu & Kashmir">
+
+<!-- Ladakh -->
+<area shape="poly" coords="230,70,260,60,270,90,240,100" href="states/ladakh.html" alt="Ladakh">
+
+
+<!-- EAST -->
+<area shape="poly" coords="220,200,260,200,280,240,250,260,220,240" href="states/uttarpradesh.html" alt="Uttar Pradesh">
+
+<area shape="poly" coords="260,240,290,250,300,280,270,300,250,270" href="states/bihar.html" alt="Bihar">
+
+<area shape="poly" coords="290,260,320,260,330,290,300,300" href="states/westbengal.html" alt="West Bengal">
+
+<area shape="poly" coords="240,280,270,300,260,340,230,330" href="states/jharkhand.html" alt="Jharkhand">
+
+<area shape="poly" coords="230,330,260,340,250,380,210,370" href="states/odisha.html" alt="Odisha">
+
+<area shape="poly" coords="210,260,240,280,230,330,200,300" href="states/chhattisgarh.html" alt="Chhattisgarh">
+
+
+<!-- NORTH EAST -->
+<area shape="poly" coords="330,260,360,250,370,280,340,290" href="states/assam.html" alt="Assam">
+
+<area shape="poly" coords="360,250,380,240,390,260,370,280" href="states/arunachalpradesh.html" alt="Arunachal Pradesh">
+
+<area shape="poly" coords="340,290,360,300,350,320,330,310" href="states/meghalaya.html" alt="Meghalaya">
+
+<area shape="poly" coords="360,300,380,300,390,320,370,320" href="states/nagaland.html" alt="Nagaland">
+
+<area shape="poly" coords="350,320,370,330,360,350,340,340" href="states/manipur.html" alt="Manipur">
+
+<area shape="poly" coords="330,310,350,320,340,340,320,330" href="states/tripura.html" alt="Tripura">
+
+<area shape="poly" coords="320,330,340,340,330,360,310,350" href="states/mizoram.html" alt="Mizoram">
+
+<!-- Sikkim -->
+<area shape="poly" coords="310,230,315,225,320,230,315,240" href="states/sikkim.html" alt="Sikkim">
+
+
+<!-- UNION TERRITORIES -->
+<area shape="poly" coords="60,520,80,530,75,550,55,540" href="states/lakshadweep.html" alt="Lakshadweep">
+
+<area shape="poly" coords="350,450,370,460,360,500,340,480" href="states/andaman_nicobar.html" alt="Andaman & Nicobar Islands">
+
+<area shape="poly" coords="120,560,140,570,135,590,115,580" href="states/puducherry.html" alt="Puducherry">
+
+<area shape="poly" coords="70,300,85,295,90,315,75,320" href="states/dadra_nagarhaveli_daman_diu.html" alt="Dadra & Nagar Haveli and Daman & Diu">
+
+</map>
+
+    <p id="coords">Coordinates will appear here</p>
+
+    <script>
+        const display = document.getElementById('coords');
+        const img = document.getElementById('indiaMap');
+
+        img.addEventListener('mousemove', function(event) {
+            const rect = img.getBoundingClientRect();
+
+            const x = Math.round(event.clientX - rect.left);
+            const y = Math.round(event.clientY - rect.top);
+
+            display.innerText = `Mouse Position on Image: X=${x}, Y=${y}`;
+        });
+
+        img.addEventListener('click', function(event) {
+            const rect = img.getBoundingClientRect();
+
+            const x = Math.round(event.clientX - rect.left);
+            const y = Math.round(event.clientY - rect.top);
+
+            display.innerText = `Clicked Point: ${x},${y}`;
+        });
+    </script>
+
+</body>
+</html>
